@@ -1,0 +1,5 @@
+__pycache__/
+.idea/
+training_data/
+model*.pth
+*.pickle
