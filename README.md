@@ -4,6 +4,6 @@ The model is capable of classifying images into 20 different classes (the exact 
 
 To evaluate performance of trained models, we were provided with evaluation server. It took the trained model and tested it on a unknown set of images. This particular model could reach best ~0.77 accuracy.
 
-The model architecture is a CNN derived from VGG16. VGG16 was choisen as a base architecture because it seemed a decent option for image classification tasks and also it was easier to implement in code. In particular, the derived architecture has different from VGG16 input size, slightly altered hyperparameters, more/less convolutional, max pooling layers.
+The model architecture is a CNN derived from VGG16. In particular, the derived architecture has different from VGG16 input size, slightly altered hyperparameters, more/less convolutional, max pooling layers. VGG16 was choisen as a base architecture because it seemed a decent option for image classification tasks. Also, it was easier to implement in code than ResNet or similar architectures.
 
-The training data was contributed by course participants, which then was cleaned by university staff. 
+The training data was contributed by course participants, which was then cleaned by the university staff.
