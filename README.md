@@ -7,3 +7,5 @@ To evaluate performance of trained models, we were provided with evaluation serv
 The model architecture is a CNN derived from VGG16. In particular, the derived architecture has different from VGG16 input size, slightly altered hyperparameters, more/less convolutional, max pooling layers. VGG16 was choisen as a base architecture because it seemed a decent option for image classification tasks. Also, it was easier to implement in code than ResNet or similar architectures.
 
 The training data was contributed by course participants, which was then cleaned by the university staff.
+
+The directory ```runs/``` contains tensorboard log files for different combinations of hyperparameters, model architecture, optimizers, training (augmented)/testing data, etc.
