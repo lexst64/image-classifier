@@ -1,0 +1,13 @@
+[project]
+name = "image-classifier"
+version = "1.0.0"
+description = "Image classification project done as a homework assignment of my programming classes in the summer semester 2024"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.0.2",
+    "pillow>=11.1.0",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "tqdm>=4.67.1",
+]
