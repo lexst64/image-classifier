@@ -1,7 +1,7 @@
 [project]
 name = "image-classifier"
 version = "1.0.0"
-description = "Image classification project done as a homework assignment of my programming classes in the summer semester 2024"
+description = "Image classification project completed as a homework assignment for my programming course during the Summer Semester 2024"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
